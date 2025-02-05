@@ -1,0 +1,41 @@
+h1 {
+    color: slateblue;
+
+}
+
+main h1{
+    color: slateblue;
+}
+
+footer p {
+    font-size: larger;
+    background-color: lightblue;
+
+}
+/* class selector*/
+    .my-footer {
+        color: black;
+
+    }
+/* Id selector
+    #my-footer {} */
+
+nav, footer{
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+img {
+    width: 300px;
+    margin: 15px 50px;
+    
+}
+body{
+    text-align: center;
+}

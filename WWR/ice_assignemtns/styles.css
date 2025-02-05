@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: steelblue;
+}
+
+
+img {
+    width: 300px
+}
+
+h1 {
+    color: white;
+}
+
+h1:hover{
+    color:black;
+}
+
+p.intro{
+    color: white;
+    font-size: 12px;
+}
+
+p.name{
+    color: white;
+
+}
+
+ol {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+
+ol li{
+    margin: 10px;
+    padding-left: 5p;
+}
