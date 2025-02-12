@@ -8,6 +8,7 @@ nav a{
     color: black;
     text-align: center;
     text-decoration: none;
+    padding:35px;
 }
 
 nav a:hover{
@@ -16,10 +17,12 @@ nav a:hover{
 }
 
 #hero_msg h1 {
+    font-family: "Rubik Gemstones";
     text-align: center;
 }
 
 #hero_msg h4{
+    font-family: "Rubik Gemstones";
     text-align: center;
 }
 
@@ -37,28 +40,41 @@ main section{
 }
 
 body{
+    font-size: 22px;
+    font-family: "Mountains of Christmas";
     background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
 }
 
 header{
+    font-family: "Rubik Gemstones";
     background-color: #C17549;
 }
 
 .book, .join{
+    font-size: 18px;
     background-color: #41ADC8;
     color: black;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     color:#F8F32B;
 }
 .msg{
+    line-height: 1.5em;
     background-color: #41ADC8;
+    padding: 35px;
 }
 
 footer{
     background-color: #C17549;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -78,22 +94,30 @@ footer p a:hover{
     text-decoration: underline;
 }
 .home_title{
+    font-size: 2em;
+    font-family: "Rubik Gemstones";
     color:black;
+    margin-top: 10px;
 }
 
 h4{
+    font-family: "Rubik Gemstones";
     color:black;
 }
 .msg p{
+    font-size: .8em;
     color: black;
+    padding-bottom: 15px;
 }
 
 .msg h2{
+    font-family: "Rubik Gemstones";
     color: black;
 }
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo{
@@ -102,4 +126,28 @@ h4{
 
 #hero_img{
     width: 100%;
+}
+
+h2{
+    margin: 0;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0px;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+
+main section img{
+    box-sizing: border-box;
 }
