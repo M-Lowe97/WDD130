@@ -1,0 +1,17 @@
+main{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 200px;
+}
+
+img{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    height: 50%;
+    width: 50%;
+}
+
+.main{
+    text-align: center;
+    
+}
