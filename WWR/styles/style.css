@@ -224,6 +224,51 @@ main section img{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 300px 1fr 1fr 1fr 1fr;
+    grid-template-rows: 80px 800px 600px 600px;
+}
+
+.msg-rivers{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.rivers-img-a{
+    grid-column: 5/6;
+    grid-row: 2/4;
+    padding-top: 150px;
+}
+
+.msg-rivers-b{
+    grid-column: 4/6;
+    grid-row: 3/4;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.rivers-img-b{
+    grid-column: 2/4;
+    grid-row: 3/4;
+    padding-top: 100px;
+}
+
+.rivers-img-b img{
+    width: 100%;
+}
+
+.msg-river-c{
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+
+.rivers-img-c{
+    grid-column: 5/6;
+    grid-row: 4/5;
+    padding-top: 90px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
