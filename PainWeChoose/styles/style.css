@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#content {
+    max-width: 1600px;
+    width: auto;
+    margin: 0 auto;
+    background-color: #d8212f;
+}
+
+.logo{
+    max-width: 100px;
+    width: auto;
+
+}
+
+nav{
+    display: flex;
+}
+
+nav a{
+    color: black;
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: black;
+    background-color: #396e94;
+}
+
+body{
+    background-color: #d8212f;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color:white;
+    font-family: "Hanalei Fill";
+}
+
+#hero{
+    text-align: center;
+    justify-content: center;
+    font-family: "Hanalei Fill";
+    font-size: 45px;
+}
+
+main{
+    background-color: #52ce8a;
+}
+
+p{
+    font-family: "Quantico";
+    color: black;
+}
+
+.bullets{
+    margin-left: 70px;
+}
+
+.progress {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.text-content {
+    flex: 1; 
+    min-width: 250px; 
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.game {
+    width: 350px;
+    height: auto;
+}
+
+h6 {
+    margin-top: 25px; 
+    text-align: center;
+}
+
+/* troubleshooting provided by chatgpt */
