@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rules Reference Page</title>
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+
+    <div id="content">
+        <header>
+
+            <nav>
+                <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo.png" alt="TPWC logo">
+                </a>
+                <a href="index.html">Home</a>
+                <a href="challengers.html">Challengers</a>
+                <a href="dictionary.html">Dictionary</a>
+            </nav>
+        </header>
+    </div>
+
     <main>
         <h2>Definitions</h2>
         <p>Games have a mix of shared and unique jargon that can be confusing to navigate at first. We will breakdown the various terms so that you can understand what other people are talking about.</p>
@@ -37,5 +53,23 @@
         <p><strong>NG+</strong>- Officially called New Game Plus. Enemies and bosses have more hp and deal more damage as well as offering more currency when killed. Addtional items and enemies may be present depending on which Dark Souls game you are playing.</p>
         <p><strong>Scholar of the First Sin</strong>- Dark Souls 2 has two different versions, the original release and Scholar of the First Sin. Scholar of the First Sin is considered the harder version with significant changes to enemy and item placement. There are no major differences between other versions of the Dark Souls games.</p>
     </main>
+
+    
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+          const hash = window.location.hash;
+          if (hash) {
+            const target = document.querySelector(hash);
+            if (target) {
+              target.classList.add('highlighted');
+              // Optional: Remove the class after animation for reusability
+              setTimeout(() => {
+                target.classList.remove('highlighted');
+              }, 2000);
+            }
+          }
+        });
+    </script>
+      
 </body>
 </html>

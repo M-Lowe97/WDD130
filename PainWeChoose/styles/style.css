@@ -157,3 +157,13 @@ h6 {
     flex: auto;
     justify-content: center;
 }
+
+.highlighted {
+    animation: highlightFade 2s ease-in-out;
+}
+  
+@keyframes highlightFade {
+    0%   { background-color: #d8212f; }
+    100% { background-color: transparent; }
+}
+  
